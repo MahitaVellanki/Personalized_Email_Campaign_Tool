@@ -1,0 +1,14 @@
+[
+    {
+    "name": "John Doe",
+    "contract": "Software Development",
+    "terms_conditions": "These are the terms and conditions...",
+    "sender_name": "Jane Doe"
+    },
+    {
+    "name": "Jane Smith",
+    "contract": "Consulting Agreement",
+    "terms_conditions": "Herein are the consulting agreement terms...",
+    "sender_name": "John Smith"
+    }
+    ]
