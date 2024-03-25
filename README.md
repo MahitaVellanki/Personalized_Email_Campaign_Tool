@@ -20,6 +20,11 @@ react-quill
 react-icons
 
 ```
+**or** simply use:
+```
+cd frontend
+npm i
+```
 To set up Tailwind CSS, install the package and customize the configuration in the tailwind.config.js file as needed.
 For installation
 ```
