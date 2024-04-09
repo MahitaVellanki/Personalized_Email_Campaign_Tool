@@ -68,7 +68,7 @@ export default function Home() {
               <button
                 className="flex flex-row w-30 mt-2 py-2 px-4 shadow-lg bg-blue hover:bg-darkBlue rounded-lg cursor-pointer text-white"
                 onClick={() => {
-                  navigate("/uploadScreen");
+                  navigate("/editorScreen");
                 }}
               >
                 <span>Get Started</span>
