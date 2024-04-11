@@ -3,12 +3,13 @@ The Personalized Email Campaign Tool simplifies the creation of multiple persona
 
 ## Features
 1. Upload a JSON file containing parameters that require customization for each template.
-![Alt Text](frontend/public/assets/uploadScreen.png)
+![Alt Text](frontend/public/assets/Step-1.png)
 
-2. With the ReactQuill rich text editor, effortlessly tailor your templates, crosscheck their format in adjacent read-only mode, switch to preview mode with a template layout, and generate templates for the JSON list by clicking **"Generate"**. After Clicking Generate, click on **"Next"** and **"Prev"** to go through the templates [**Note**: While creating a template, use "{{parameter}}" format for all the parameters which needs to be altered in individual template.(ex:{{name}})] 
-![Alt Text](frontend/public/assets/Editor.png)
+2. With the ReactQuill rich text editor, effortlessly tailor your templates. Save the changes and generate templates for the JSON list by clicking **"Generate"**. Make sure to save the changes before clicking Generate. After Clicking Generate, click on **"Next"** and **"Prev"** to go through the templates [**Note**: While creating a template, use "{{parameter}}" format for all the parameters which needs to be altered in individual template.(ex:{{name}})] 
+![Alt Text](frontend/public/assets/Step-2.png)
+![Alt Text](frontend/public/assets/Step-3.png)
 
-3. You can also save the template format by clicking on download button, which gives you .html file of the email template.
+4. You can also save the template format by clicking on download button, which gives you .html file of the email template.
 ![Alt Text](frontend/public/assets/Email_Template.png)
 
 ## SetUp
