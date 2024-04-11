@@ -19,6 +19,8 @@ module.exports = {
       "gray-dark": "#273444",
       gray: "#8492a6",
       grayLight: "#eceff1",
+      orange: "#f68f1e",
+      darkOrange: "#d77104",
     },
 
     borderRadius: {
@@ -58,5 +60,16 @@ module.exports = {
       },
     },
   },
-  plugins: [],
+  plugins: [
+    function ({ addUtilities }) {
+      addUtilities({
+        ".scrollbar-hidden::-webkit-scrollbar": {
+          display: "none",
+        },
+        ".scrollbar-hidden": {
+          scrollbarWidth: "4px",
+        },
+      });
+    },
+  ],
 };

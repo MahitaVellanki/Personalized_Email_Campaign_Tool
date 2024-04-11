@@ -10,7 +10,11 @@ export default function Home() {
       <Navbar />
 
       <div className="flex justify-center bg-opaqueBlue items-center p-16 m-2 bg-blue-opaque">
-        <img src="assets/docupilotLogo.png" className="max-w-full max-h-full" />
+        <img
+          src="assets/docupilotLogo.png"
+          className="max-w-full max-h-full"
+          alt="Logo"
+        />
       </div>
       <div className="h-auto">
         <div>
@@ -18,7 +22,7 @@ export default function Home() {
             Personalized Email Campaign Tool
           </h1>
           <div
-            className="mx-10 mt-4"
+            className="mx-10 mt-2"
             // style={{ "@media (max-width: 768px)": { margin: "0 2px" } }}
           >
             <p className="text-xl text-center">
@@ -37,6 +41,7 @@ export default function Home() {
             <img
               src="assets/Step-1.png"
               className="mx-auto max-w-full m-2 border-1 shadow-lg rounded-lg"
+              alt="Step-1 "
             ></img>
             <br />
             <p className="text-center italic my-2">
@@ -44,12 +49,13 @@ export default function Home() {
                 <strong> STEP-2</strong>
               </u>
               <br />
-              Customize your template to align with your preferences and needs,
-              with the option to review each template individually.
+              Customize the template to suit your preferences and specific
+              requirements.
             </p>
             <img
               src="assets/Step-2.png"
               className="mx-auto max-w-full m-2 border-1 shadow-lg rounded-lg"
+              alt="Step-2 "
             ></img>
             <br />
             <p className="text-center italic my-2">
@@ -57,11 +63,12 @@ export default function Home() {
                 <strong> STEP-3</strong>
               </u>{" "}
               <br />
-              Generate your customized templates with ease.
+              Navigate through the customized templates with ease.
             </p>
             <img
               src="assets/Step-3.png"
               className="mx-auto max-w-full m-2 border-1 shadow-lg rounded-lg"
+              alt="Step-3 "
             ></img>
             <br />
             <div className="flex flex-row justify-center items-center">
